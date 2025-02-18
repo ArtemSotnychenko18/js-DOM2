@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Галерея </title>
+    <title>Галерея</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="gallery-wrapper">
-        <h1>Галерея </h1>
+        <h1>Галерея</h1>
         <div class="gallery" id="gallery"></div>
         <div class="actions">
-            <button class="btn-load" onclick="loadImages()">Завантажити</button>
-            <button class="btn-clear" onclick="clearGallery()">Очистити</button>
-            <button class="btn-remove" onclick="removeLastImage()">Видалити</button>
-            <button class="btn-reverse" onclick="reverseGallery()">Перевернути</button>
+            <button class="btn-load" id="btn-load">Завантажити</button>
+            <button class="btn-clear" id="btn-clear">Очистити</button>
+            <button class="btn-remove" id="btn-remove">Видалити</button>
+            <button class="btn-reverse" id="btn-reverse">Перевернути</button>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
